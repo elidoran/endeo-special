@@ -1,8 +1,8 @@
-# @endeo/special
-[![Build Status](https://travis-ci.org/elidoran/endeo.svg?branch=master)](https://travis-ci.org/elidoran/endeo)
-[![Dependency Status](https://gemnasium.com/elidoran/endeo.png)](https://gemnasium.com/elidoran/endeo)
-[![npm version](https://badge.fury.io/js/endeo.svg)](http://badge.fury.io/js/endeo)
-[![Coverage Status](https://coveralls.io/repos/github/elidoran/endeo/badge.svg?branch=master)](https://coveralls.io/github/elidoran/endeo?branch=master)
+# @endeo/specials
+[![Build Status](https://travis-ci.org/elidoran/endeo-specials.svg?branch=master)](https://travis-ci.org/elidoran/endeo-specials)
+[![Dependency Status](https://gemnasium.com/elidoran/endeo-specials.png)](https://gemnasium.com/elidoran/endeo-specials)
+[![npm version](https://badge.fury.io/js/%40endeo%2Fspecials.svg)](http://badge.fury.io/js/%40endeo%2Fspecials)
+[![Coverage Status](https://coveralls.io/repos/github/elidoran/endeo-specials/badge.svg?branch=master)](https://coveralls.io/github/elidoran/endeo-specials?branch=master)
 
 Build "object spec" for compact object encoding.
 
@@ -26,7 +26,7 @@ See packages:
 ## Install
 
 ```sh
-npm install --save @endeo/special
+npm install --save @endeo/specials
 ```
 
 
@@ -35,7 +35,7 @@ npm install --save @endeo/special
 
 ```javascript
 // get the Specials builder
-var build = require('@endeo/special')
+var build = require('@endeo/specials')
 
 // the types we'd like to refer to by name.
 // i'm using some default ones.
