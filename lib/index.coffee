@@ -136,6 +136,9 @@ class Specials
       # if it's a string then get the common (stored) info
       if typeof enhancer is 'string' then @types[enhancer]
 
+      # if it's an array then use it as a select
+      else if Array.isArray enhancer then select: enhancer
+
       # if it's a sub-property then combine the common with this
       else if enhancer.type? then Object.assign {}, @types[enhancer.type], enhancer
 
